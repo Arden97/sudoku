@@ -1,10 +1,10 @@
 ///////////////////////////////////////////////////////////////////////////////////
 // School:      Brno University of Technology, Faculty of Electrical Engineering //
-// Course:		BPC-P1CT							 							 //
-// Project:     #8 Sudoku  							 							 //
-// Module:      Main module							 							 //
-// Authors:     Artem Denisov	(xdenis00)					 					 //
-//              Alakan Tarik	(xalkanan02)					 				 //
+// Course:	BPC-P1CT							 //
+// Project:     #8 Sudoku  							 //
+// Module:      Main module							 //
+// Authors:     Artem Denisov	(xdenis00)					 //
+//              Alakan Tarik	(xalkanan02)					 //
 ///////////////////////////////////////////////////////////////////////////////////
 
 #include <stdlib.h>
