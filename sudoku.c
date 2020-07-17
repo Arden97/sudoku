@@ -4,7 +4,7 @@
 // Project:     #8 Sudoku  							 //
 // Module:      Main module							 //
 // Authors:     Artem Denisov	(xdenis00)					 //
-//              Alakan Tarik	(xalkanan02)					 //
+//              Alkanan Tarik	(xalkanan02)					 //
 ///////////////////////////////////////////////////////////////////////////////////
 
 #include <stdlib.h>
