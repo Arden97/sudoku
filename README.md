@@ -3,7 +3,7 @@ Small sudoku game written in C. This program was created as a semester project o
 
 ## How it works?
 
-The program will prompt the player to start a new game or load an old one. If you select a new game, the player will have to enter the starting numbers on the game board. If you choose to continue the old game, the player will need to specify the path to the file with the saved game.
+The program will prompt the player to start a new game or load saved one. If you select a new game, the player will have to enter the starting numbers on the game board. If you choose to continue the saved game, the player will need to specify the path to the file with the saved game.
 
 Examples of the file format with the saved game can be found in the `test` folder.
 
