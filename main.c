@@ -7,7 +7,7 @@
 //              Alkanan Tarik	(xalkanan02)					 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-#include "utils.h"
+#include "./utils/utils.h"
 
 /* Main function */
 int main(int argc, char** argv){

@@ -7,7 +7,7 @@
 //              Alkanan Tarik	(xalkanan02)					 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-#include "utils.h"
+#include "./utils.h"
 
 int count_rows(FILE *file){
 	int rows = 0;

@@ -1,20 +1,14 @@
-SRC=$(wildcard *.c)
-OBJ=${SRC:.c=.o}
+SRC_LIST = ./main.c $(wildcard */*.c)
+OBJ_LIST = $(SRC_LIST:.c=.o)
 
-CC=gcc
-CFLAGS=-std=c99 -g -O0 -Wno-parentheses -Wno-switch-enum -Wno-unused-value
-CFLAGS+=-Wno-switch
-LDFLAGS+=-lm
+CC = gcc
+CFLAGS = -std=c99 -g -O0 -Wall -Wno-parentheses -Wno-switch-enum -Wno-unused-value
+LDFLAGS += -lm
 
-EXEC=sudoku
-
-$(EXEC): $(OBJ)
-	$(CC) $^ $(LDFLAGS) -o $@
-
-%.o: %.c
-	@$(CC) -c $(CFLAGS) $< -o $@
-
-clean:
-	rm -f sudoku $(OBJ)
+sudoku: $(OBJ_LIST)
+	$(CC) -o $@ $^ $(LDFLAGS)
 
 .PHONY: clean
+
+clean:
+	rm -f $(OBJ_LIST) sudoku
